@@ -5,6 +5,22 @@ body {
   margin: 0;
 }
 
+.description {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .barney {
   border-radius: 100%;
   width: 300px;
