@@ -2,6 +2,7 @@ body {
   text-align: center;
   background: linear-gradient(to bottom, #7F00CA, #BF8DDD);
   font-family: sans-serif;
+  margin: 0;
 }
 
 #container {
@@ -16,6 +17,7 @@ body {
   width: 50%;
   text-align: center;
   min-height: 350px;
+  background-color: #F5E4FF;
 }
 
 .pets {
@@ -37,4 +39,33 @@ h2 {
 
 .column p {
   padding: 0 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+  #container {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .column p {
+    padding: 0 10px;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+  #container {
+    width: 100%;
+  }
+
 }
