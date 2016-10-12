@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 49.5%;
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.pets {
+  clear: left;
+}
