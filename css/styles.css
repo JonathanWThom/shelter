@@ -5,12 +5,18 @@ body {
   margin: 0;
 }
 
+.barney {
+  border-radius: 100%;
+  width: 300px;
+}
+
 #container {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
   background-color: #F5E4FF;
 }
+
 
 .column {
   float: left;
@@ -22,6 +28,7 @@ body {
 
 .pets {
   clear: left;
+  min-height: 400px;
 }
 
 .column img {
@@ -58,14 +65,30 @@ h2 {
   .column p {
     padding: 0 10px;
   }
-
-
 }
 
 @media screen and (max-width: 480px) {
 
   #container {
     width: 100%;
+  }
+
+  .column {
+    float: none;
+    width: 100%;
+    min-height: 0;
+  }
+
+  .pets {
+    border-bottom: 10px solid purple;
+    padding: 25px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .column img {
+    width: 70%;
   }
 
 }
